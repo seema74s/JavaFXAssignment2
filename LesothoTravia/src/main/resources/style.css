@@ -1,0 +1,58 @@
+.root {
+    -fx-background-color: #0033A0; /* Lesotho blue */
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+.choice-box {
+    -fx-font-size: 16px;
+    -fx-background-color: #87CEEB; /* White */
+    -fx-border-color: #0058A0; /* Lesotho dark blue */
+}
+
+.choice-box .arrow-button {
+    -fx-background-color: #0058A0; /* Lesotho dark blue */
+}
+
+.choice-box .arrow-button .arrow {
+    -fx-background-color: #FFFFFF; /* White */
+}
+
+.choice-box .list-view {
+    -fx-background-color: #008000; /* Lesotho green */
+}
+
+.choice-box .list-view .list-cell {
+    -fx-text-fill: black; /* Black text color for answers */
+}
+
+.button {
+    -fx-background-color: #FFC000; /* Lesotho gold */
+    -fx-font-size: 16px;
+    -fx-text-fill: #0033A0; /* Lesotho blue */
+}
+
+.button:hover {
+    -fx-background-color: #FFD966; /* Lighter gold on hover */
+}
+
+.image-view {
+    -fx-border-color: #0058A0; /* Lesotho dark blue */
+    -fx-border-width: 2px;
+}
+
+.progress-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFC000; /* Lesotho gold */
+}
+
+.score-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #FFC000; /* Lesotho gold */
+}
